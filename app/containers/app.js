@@ -193,13 +193,13 @@ export default class Application extends Component {
       <View style={{flex: 1}} >
         <Router hideNavBar={true}>
           <Schema name="tab" type="switch" icon={TabIcon} />
-          <Route name="productDetail" component={ProductDetail} />
-          <Route name="productList" component={ProductList} />
-          <Route name="orderDetail" component={OrderDetail} />
-          <Route name="favoursDetail" component={FavoursDetail} />
-          <Route name="myMessage" component={MyMessage} />
-          <Route name="commonUse" component={CommonUse} />
-          <Route name="aboutUs" component={AboutUs} />
+          <Route name="productDetail" component={ProductDetail} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
+          <Route name="productList" component={ProductList} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
+          <Route name="orderDetail" component={OrderDetail} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
+          <Route name="favoursDetail" component={FavoursDetail} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
+          <Route name="myMessage" component={MyMessage} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
+          <Route name="commonUse" component={CommonUse} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
+          <Route name="aboutUs" component={AboutUs} sceneConfig={Navigator.SceneConfigs.FloatFromRight} />
           <Route name="tabBar" initial={true}>
             <Router footer={TabBar} showNavigationBar={false}>
               <Route name="home" schema="tab" initial={true} component={Home} title={TAB_TITLE_HOME} hideNavBar={true}/>
