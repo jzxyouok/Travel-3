@@ -38,11 +38,10 @@ public class MainActivity extends ReactActivity {
     protected String getJSBundleFile() {
         return CodePush.getBundleUrl();
     }
-
-   /**
-   * A list of packages used by the app. If the app uses additional views
-   * or modules besides the default ones, add more packages here.
-   */
+    /**
+     * A list of packages used by the app. If the app uses additional views
+     * or modules besides the default ones, add more packages here.
+     */
     @Override
     protected List<ReactPackage> getPackages() {
       // 3. Instantiate an instance of the CodePush runtime and add it to the list of

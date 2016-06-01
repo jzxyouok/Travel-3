@@ -12,19 +12,19 @@ const Actions = require('react-native-router-flux').Actions;
 //import LoadSpinner from '../components/LoadSpinner';
 /** 主tab 四页*/
 import Home from '../components/home/Home';
-import Order from '../components/order/Container';
-import Favourite from '../components/favours/Container';
-import Mine from '../components/mine/Container';
+import Order from '../components/order/container';
+import Favourite from '../components/favours/container';
+import Mine from '../components/mine/container';
 
 //销售项目
 import ProductDetail from '../components/product/ProductDetail';
 import ProductList from '../components/product/ProductList';
 
 //订单
-import OrderDetail from '../components/order/Detail';
+import OrderDetail from '../components/order/detail';
 
 //收藏
-import FavoursDetail from '../components/favours/Detail';
+import FavoursDetail from '../components/favours/detail';
 
 //我的
 import MyMessage from '../components/mine/MyMessage';
